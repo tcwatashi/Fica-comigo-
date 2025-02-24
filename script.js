@@ -18,8 +18,8 @@ function selectOption(option) {
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
         yesButton.style.fontSize = newSize + 'px';
     } else {
-        // If neither "Sim" nor "Não" was clicked, show an alert message
-        alert('Invalid option!');
+        // If neither "Não" nor "Não" was clicked, show an alert message
+        alert('Endoidou Dra?!');
     }
 }
 
